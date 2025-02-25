@@ -1,0 +1,11 @@
+services:
+  mysql:
+    container_name: 'mysql_Warehouse_ORM'
+    image: 'mysql:latest'
+    environment:
+      - 'MYSQL_DATABASE=warehouse'
+      - 'MYSQL_PASSWORD=admin'
+      - 'MYSQL_ROOT_PASSWORD=admin'
+      - 'MYSQL_USER=admin'
+    ports:
+      - '3306:3306'
