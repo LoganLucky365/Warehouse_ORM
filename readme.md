@@ -226,6 +226,13 @@ public void run(String... args) {
 }
 ```
 
+# Testen
+
+```cmd
+ curl -d '{"warehousID":"2", "warehousName":"Test"}' -H "Content-Type: application/json" -X POST http://127.0.0.1:8080/api/warehouses
+```
+
+
 # Ausarbeitung der Fragestellungen
 
 - **What is ORM and how is JPA used?**
